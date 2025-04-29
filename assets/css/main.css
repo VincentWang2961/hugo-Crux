@@ -49,7 +49,7 @@ a {
     color: white;
 }
 
-/* ===== Footer Styles ===== */
+/* ===== FOOTER ===== */
 .site-footer {
   border-top: 1px solid #eee; /* Lighter border */
   margin-top: 2rem;
@@ -60,7 +60,6 @@ a {
 }
 
 .site-footer .container {
-  /* max-width: 768px; Remove max-width here too if you want the footer content to expand */
   margin: 0 auto; /* Center container */
   padding: 0 1rem; /* Add padding */
 }
