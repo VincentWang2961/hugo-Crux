@@ -22,6 +22,16 @@ a {
   text-decoration: none;
 }
 
+/* Styles for the full-page centered home content */
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  min-height: calc(100vh - 4rem); /* Adjust based on header/footer height if necessary */
+  text-align: center;
+}
+
 /* ===== BACK TO TOP BUTTON ===== */
 .back-to-top {
     position: fixed;
