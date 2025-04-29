@@ -1,0 +1,47 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode editor settings (ignore if used locally only)
+.vscode/
+
+# Python cache and build files
+__pycache__/
+/*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Docker runtime files
+*.pid
+*.log
+
+# Temporary and swap files
+*.swp
+*.swo
+*.tmp
+
+# Node modules (needed only if using npm/yarn in your project)
+node_modules/
+
+# Backup files
+*~
