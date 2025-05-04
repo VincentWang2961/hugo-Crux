@@ -2,8 +2,10 @@
 
   {{ .Content }}
   {{ range site.RegularPages }}
-     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-     {{ .Summary }}
-   {{ end }}
+    <article class="post-card"> {{/* Wrap each post in an article with the post-card class */}}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    </article> {{/* Close the article tag */}}
+  {{ end }}
 
 {{ end }}

@@ -88,3 +88,22 @@ a {
      padding: 0 2rem;
   }
 }
+
+/* ===== POST CARD ===== */
+.post-card {
+  border: 1px solid #ccc; /* Add a light grey border */
+  border-radius: 15px; /* Large rounded corners */
+  padding: 1rem; /* Add padding inside the card */
+  margin-bottom: 1.5rem; /* Add space below each card */
+  background-color: #fff; /* White background for the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Optional: Style links specifically within cards if needed */
+.post-card a {
+  /* Example: color: #0056b3; */
+}
+
+.post-card h2 { /* Assuming post titles are h2 */
+  margin-top: 0; /* Remove default top margin for headings inside cards */
+}
